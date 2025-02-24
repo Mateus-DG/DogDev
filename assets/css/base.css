@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
-    --background: #ffffff;
-    --foreground: #ebf4ff;
-    --thirdground: #ffc600;
-    --primary: #131923;
-    --secondary: #0055b8;
-    --secondary-foreground: #ffffff;
-    --hero-background: #f3f3f3;
+    --background:#ffffff;
+    --foreground:#ebf4ff;
+    --thirdground:#ffc600;
+    --primary:#131923;
+    --secondary:#0055b8;
+    --secondary-foreground:#ffffff;
+    --hero-background:#f3f3f3;
 }
 *{
     margin: 0;
@@ -19,7 +20,7 @@
 }
 html{
     font-family: "Lato", sans-serif;
-    font-size:62.5%;
+    font-size: 62.5%;
 }
 body{
     background-color: var(--background);
@@ -42,8 +43,8 @@ body{
     border-radius: 15px;
 }
 .button2{
-    background-color: var(--background) ;
-    color: var(--secondary);
+    background-color: var(--background);
+    color:var(--secondary);
 }
 .button:hover, .button2:hover{
     opacity: 0.8;
